@@ -10,7 +10,6 @@ export class ByCapitalPageComponent {
 
   searchByCapital( term: string): void{
     console.log('Desde By_capital Page');
-
     console.log(term);
   }
 
