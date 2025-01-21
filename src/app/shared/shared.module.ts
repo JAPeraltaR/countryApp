@@ -6,7 +6,8 @@ import { AboutPageComponent } from './pages/aboutPage/aboutPage.component';
 import { ContactPageComponent } from './pages/contactPage/contactPage.component';
 import { HomePageComponent } from './pages/homePage/homePage.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { SearchBoxComponent } from './components/searchBox/searchBox.component';
+import { SearchBoxComponent } from './components/search-box/search-box.component';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SearchBoxComponent } from './components/searchBox/searchBox.component';
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    LoadingSpinnerComponent,
     SidebarComponent,
     SearchBoxComponent
   ],
@@ -25,6 +27,7 @@ import { SearchBoxComponent } from './components/searchBox/searchBox.component';
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
+    LoadingSpinnerComponent,
     SidebarComponent,
     SearchBoxComponent
   ]
